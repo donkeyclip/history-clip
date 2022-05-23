@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="background-container">
+    <div class="background">
+      <div class="bg-text-container">
+        <div class="bg-text bg-text1">{{initParams.slide5.backgroundText1}}</div>
+        <div class="bg-text bg-text2">{{initParams.slide5.backgroundText2}}</div>
+      </div>
+    </div>
+  </div>
+  <div class="face-container">
+    <div class="face"></div>
+  </div>
+  <div class="text-effect">{{initParams.slide5.textEffect}}</div>
+  <div class="text-container">
+    <div class="year">
+      <div class="letter" mc-for="key,letter" mc-of="initParams.slide5.year">
+        {{letter}}
+      </div>
+    </div>
+    <div class="text">
+      <div class="word-wrapper" mc-for="key,item" mc-of="initParams.slide5.text">
+        <div class="word">{{item}}</div>
+      </div>
+    </div>
+  </div>
+</div>

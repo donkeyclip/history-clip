@@ -1,0 +1,25 @@
+#root{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: black;
+}
+
+#root1,#root2,#root3,#root4,#root5,#root6,#root7,#root8{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.texture{
+  background: url(assets/paper-texture.jpg);
+  background-repeat: no-repeat;background-size: cover;
+  width: 150%;
+  height: 150%;
+  position: absolute;
+  opacity: 0;
+  right: 0%;
+  bottom: 0%;
+}
