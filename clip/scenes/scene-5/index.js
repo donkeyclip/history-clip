@@ -27,8 +27,8 @@ const clip5 = new HTMLClip({
 });
 
 clip5.addIncident(moveBottom("0%",".background-container",2800,0,"easeInOutCubic"),0)
-clip5.addIncident(moveBottom("-20%",".face-container",2800,0,"easeInOutCubic"),400)
-clip5.addIncident(moveBottom("-11%",".face-container",3200),4800)
+clip5.addIncident(moveBottom("-30%",".face-container",2800,0,"easeInOutCubic"),400)
+clip5.addIncident(moveBottom("-20%",".face-container",3200),4800)
 clip5.addIncident(moveTop("0px",".letter",300,"@stagger(0,600)","easeOutSine"),2700)
 clip5.addIncident(opacity(1,".letter",300,"@stagger(0,600)"),2700)
 clip5.addIncident(moveTop("0px",".word",400,"@stagger(0,700)","easeOutSine"),3600)

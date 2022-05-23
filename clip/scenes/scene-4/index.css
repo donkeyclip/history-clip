@@ -16,11 +16,11 @@
 .background-container{
         filter: drop-shadow(10px 50px 20px rgba(0,0,0,0.8));
         position: absolute;
-        top:-135%;
+        top:-190%;
 }
 
 .background{
-  width: 1050px;
+  width: 800px;
   height: 610px;
   background: url({{initParams.slide3.backgroundImage}});  
   filter:saturate(50%) sepia(100%) contrast(25%) saturate(170%);
@@ -32,8 +32,8 @@
   pointer-events: none;
   -webkit-mask-image: url(assets/shape-top.png);
           mask-image: url(assets/shape-top.png);
-  -webkit-mask-size: 1050px 610px;
-          mask-size: 1050px 610x;          
+  -webkit-mask-size: 800px 610px;
+          mask-size: 800px 610x;          
   -webkit-mask-repeat: no-repeat;
           mask-repeat: no-repeat;
   -webkit-mask-position: 0 0;
@@ -92,10 +92,11 @@
 
 .text-container{
   position: absolute;
+  width: 95%;
   bottom: 5%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   color: aliceblue;
   font-family: 'Libre Caslon Text', serif;
 }
