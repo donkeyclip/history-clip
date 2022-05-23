@@ -2,6 +2,7 @@ export default [
   {
     name: "Default",
     value: {
+      song:"https://elisavetampatzidou.github.io/history-clip/server/assets/history.mp3",
       intro:{
         title:["History","1821"],
         subtitle:["Timeline","1821-1826"],
