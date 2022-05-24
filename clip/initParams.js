@@ -2,15 +2,15 @@ export default [
   {
     name: "Default",
     value: {
-      song:"https://elisavetampatzidou.github.io/history-clip/server/assets/history.mp3",
+      song:"https://donkeyclip.github.io/history-clip/server/assets/history.mp3",
       intro:{
         title:["History","1821"],
         subtitle:["Timeline","1821-1826"],
-        backgroundImage:"assets/background.jpg"
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background.jpg"
       },
       slide1:{
-        backgroundImage:"assets/background1.jpg",
-        centerImage:"assets/Diakos.jpg",
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background1.jpg",
+        centerImage:"https://donkeyclip.github.io/history-clip/server/assets/Diakos.jpg",
         year:"1821",
         text:["Lorem", "ipsum", "dolor", "sit", "amet,","consectetur", "adipiscing", "elit.", "Aenean", "pellentesque", "dignissim", "tellus."],
         backgroundText1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum aliquam odio, sit amet posuere augue accumsan non. Quisque eget ex nibh. Phasellus vehicula risus eleifend dui porta blandit. Vivamus a lacinia enim. Nulla et auctor metus, a tristique magna. Donec sollicitudin nisl ut nisi congue, vel convallis enim sollicitudin. Nullam quis ultrices diam. Sed vel convallis ante. Quisque rutrum rhoncus ligula quis dignissim. Quisque lacinia nisi eget nisl euismod placerat. Donec vel turpis consectetur, feugiat dui id, imperdiet orci. Aenean condimentum felis vel varius ultrices.
@@ -32,8 +32,8 @@ export default [
         textEffect:"Nam hendrerit diam ante, hendrerit pretium risus pharetra a. Nunc vulputate purus ut accumsan auctor. Donec scelerisque mi id justo lacinia, sit amet blandit nisl semper. Maecenas auctor risus maximus dui porta, ac pharetra nisl ultricies. Proin varius massa orci, non egestas nibh mattis quis. Etiam ultrices ullamcorper nunc, vitae tempus erat ultricies sit amet. Aliquam erat volutpat. Curabitur a dui id massa bibendum condimentum nec eget ex."
       },
       slide2:{
-        backgroundImage:"assets/background2.jpg",
-        centerImage:"assets/Nicolas.jpg",
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background2.jpg",
+        centerImage:"https://donkeyclip.github.io/history-clip/server/assets/Nicolas.jpg",
         year:"1822",
         text:["Neque", "porro", "quisquam", "est", "qui" ,"dolorem" ,"ipsum" ,"quia" ,"dolor", "sit", "amet,", "consectetur", "adipisci", "velit."],
         backgroundText1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum aliquam odio, sit amet posuere augue accumsan non. Quisque eget ex nibh. Phasellus vehicula risus eleifend dui porta blandit. Vivamus a lacinia enim. Nulla et auctor metus, a tristique magna. Donec sollicitudin nisl ut nisi congue, vel convallis enim sollicitudin. Nullam quis ultrices diam. Sed vel convallis ante. Quisque rutrum rhoncus ligula quis dignissim. Quisque lacinia nisi eget nisl euismod placerat. Donec vel turpis consectetur, feugiat dui id, imperdiet orci. Aenean condimentum felis vel varius ultrices.
@@ -55,8 +55,8 @@ export default [
         textEffect:"Nam hendrerit diam ante, hendrerit pretium risus pharetra a. Nunc vulputate purus ut accumsan auctor. Donec scelerisque mi id justo lacinia, sit amet blandit nisl semper. Maecenas auctor risus maximus dui porta, ac pharetra nisl ultricies. Proin varius massa orci, non egestas nibh mattis quis. Etiam ultrices ullamcorper nunc, vitae tempus erat ultricies sit amet. Aliquam erat volutpat. Curabitur a dui id massa bibendum condimentum nec eget ex."
       },
       slide3:{
-        backgroundImage:"assets/background3.jpg",
-        centerImage:"assets/background1.jpg",
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background3.jpg",
+        centerImage:"https://donkeyclip.github.io/history-clip/server/assets/background1.jpg",
         year:"1823",
         text:["Aliquam", "sodales" ,"blandit" ,"velit,","consectetur", "adipiscing", "elit.", "Aenean", "pellentesque", "dignissim", "tellus."],
         backgroundText1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum aliquam odio, sit amet posuere augue accumsan non. Quisque eget ex nibh. Phasellus vehicula risus eleifend dui porta blandit. Vivamus a lacinia enim. Nulla et auctor metus, a tristique magna. Donec sollicitudin nisl ut nisi congue, vel convallis enim sollicitudin. Nullam quis ultrices diam. Sed vel convallis ante. Quisque rutrum rhoncus ligula quis dignissim. Quisque lacinia nisi eget nisl euismod placerat. Donec vel turpis consectetur, feugiat dui id, imperdiet orci. Aenean condimentum felis vel varius ultrices.
@@ -78,8 +78,8 @@ export default [
         textEffect:"Nam hendrerit diam ante, hendrerit pretium risus pharetra a. Nunc vulputate purus ut accumsan auctor. Donec scelerisque mi id justo lacinia, sit amet blandit nisl semper. Maecenas auctor risus maximus dui porta, ac pharetra nisl ultricies. Proin varius massa orci, non egestas nibh mattis quis. Etiam ultrices ullamcorper nunc, vitae tempus erat ultricies sit amet. Aliquam erat volutpat. Curabitur a dui id massa bibendum condimentum nec eget ex."
       },
       slide4:{
-        backgroundImage:"assets/background4.jpg",
-        centerImage:"assets/background6.jpg",
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background4.jpg",
+        centerImage:"https://donkeyclip.github.io/history-clip/server/assets/background6.jpg",
         year:"1824",
         text:["Mauris", "sodales", "eu", "tortor" ,"sit", "amet" ,"consectetur.",,"Ut","consectetur", "malesuada","risus,", ,"vitae", "posuere" ,"tortor."],
         backgroundText1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum aliquam odio, sit amet posuere augue accumsan non. Quisque eget ex nibh. Phasellus vehicula risus eleifend dui porta blandit. Vivamus a lacinia enim. Nulla et auctor metus, a tristique magna. Donec sollicitudin nisl ut nisi congue, vel convallis enim sollicitudin. Nullam quis ultrices diam. Sed vel convallis ante. Quisque rutrum rhoncus ligula quis dignissim. Quisque lacinia nisi eget nisl euismod placerat. Donec vel turpis consectetur, feugiat dui id, imperdiet orci. Aenean condimentum felis vel varius ultrices.
@@ -101,8 +101,8 @@ export default [
         textEffect:"Nam hendrerit diam ante, hendrerit pretium risus pharetra a. Nunc vulputate purus ut accumsan auctor. Donec scelerisque mi id justo lacinia, sit amet blandit nisl semper. Maecenas auctor risus maximus dui porta, ac pharetra nisl ultricies. Proin varius massa orci, non egestas nibh mattis quis. Etiam ultrices ullamcorper nunc, vitae tempus erat ultricies sit amet. Aliquam erat volutpat. Curabitur a dui id massa bibendum condimentum nec eget ex."
       },
       slide5:{
-        backgroundImage:"assets/background5.jpg",
-        centerImage:"assets/Manto.jpg",
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background5.jpg",
+        centerImage:"https://donkeyclip.github.io/history-clip/server/assets/Manto.jpg",
         year:"1825",
         text:["Fusce ","sed", "nisi" ,"egestas" ,"ipsum", "dolor", "sit", "amet,","nibh", "adipiscing", "elit.", "Aenean", "pellentesque", "dignissim", "tellus."],
         backgroundText1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum aliquam odio, sit amet posuere augue accumsan non. Quisque eget ex nibh. Phasellus vehicula risus eleifend dui porta blandit. Vivamus a lacinia enim. Nulla et auctor metus, a tristique magna. Donec sollicitudin nisl ut nisi congue, vel convallis enim sollicitudin. Nullam quis ultrices diam. Sed vel convallis ante. Quisque rutrum rhoncus ligula quis dignissim. Quisque lacinia nisi eget nisl euismod placerat. Donec vel turpis consectetur, feugiat dui id, imperdiet orci. Aenean condimentum felis vel varius ultrices.
@@ -124,8 +124,8 @@ export default [
         textEffect:"Nam hendrerit diam ante, hendrerit pretium risus pharetra a. Nunc vulputate purus ut accumsan auctor. Donec scelerisque mi id justo lacinia, sit amet blandit nisl semper. Maecenas auctor risus maximus dui porta, ac pharetra nisl ultricies. Proin varius massa orci, non egestas nibh mattis quis. Etiam ultrices ullamcorper nunc, vitae tempus erat ultricies sit amet. Aliquam erat volutpat. Curabitur a dui id massa bibendum condimentum nec eget ex."
       },
       slide6:{
-        backgroundImage:"assets/background6.jpg",
-        centerImage:"assets/background2.jpg",
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background6.jpg",
+        centerImage:"https://donkeyclip.github.io/history-clip/server/assets/background2.jpg",
         year:"1826",
         text:["Maecenas", "eget", "maximus" ,"risus,", "vitae" ,"tincidunt", "nibh.","Aliquam", "consequat", "lorem", "nisl," ,"ac" ,"maximus", "erat" ,"mattis", "id",".", "Vivamus" ,"turpis", "nunc",",", "facilisis", "eget" ,"ante" ,"finibus",",", "ultrices" ,"massa."],
         backgroundText1:`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur fermentum aliquam odio, sit amet posuere augue accumsan non. Quisque eget ex nibh. Phasellus vehicula risus eleifend dui porta blandit. Vivamus a lacinia enim. Nulla et auctor metus, a tristique magna. Donec sollicitudin nisl ut nisi congue, vel convallis enim sollicitudin. Nullam quis ultrices diam. Sed vel convallis ante. Quisque rutrum rhoncus ligula quis dignissim. Quisque lacinia nisi eget nisl euismod placerat. Donec vel turpis consectetur, feugiat dui id, imperdiet orci. Aenean condimentum felis vel varius ultrices.
@@ -149,7 +149,7 @@ export default [
       outro:{
         title:["History","1821"],
         subtitle:["by","Maria","Ioannou"],
-        backgroundImage:"assets/background7.jpg"
+        backgroundImage:"https://donkeyclip.github.io/history-clip/server/assets/background7.jpg"
       },
     },
   },

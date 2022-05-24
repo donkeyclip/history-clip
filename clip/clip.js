@@ -37,27 +37,27 @@ export const clip = new HTMLClip({
   ],
 });
 
-const songPlayback = new AudioPlayback({
-  selector: "~#my-mp3",
-  startFrom: 49000,
-  duration: 38500,
-});
+// const songPlayback = new AudioPlayback({
+//   selector: "~#my-mp3",
+//   startFrom: 49000,
+//   duration: 38500,
+// });
 
-clip.addIncident(songPlayback, 0);
+// clip.addIncident(songPlayback, 0);
 
-const effect = new AudioEffect(
-  {
-    animatedAttrs: {
-      gain: 0,
-    },
-  },
-  {
-    selector: "~#my-mp3",
-    duration: 1500,
-  }
-);
+// const effect = new AudioEffect(
+//   {
+//     animatedAttrs: {
+//       gain: 0,
+//     },
+//   },
+//   {
+//     selector: "~#my-mp3",
+//     duration: 1500,
+//   }
+// );
 
-clip.addIncident(effect, 37000);
+// clip.addIncident(effect, 37000);
 
 clip.addIncident(opacity(0.2,".texture",1000),1800)
 clip.addIncident(scene1, 0);
