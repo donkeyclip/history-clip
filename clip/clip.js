@@ -41,7 +41,7 @@ export const clip = new HTMLClip({
 
 const songPlayback = new AudioPlayback({
   selector: "~#my-mp3",
-  startFrom: 49000,
+  startFrom: 0,
   duration: 38500,
 });
 
