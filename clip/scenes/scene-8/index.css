@@ -31,8 +31,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
-  -webkit-mask-image: url(assets/shape-bottom.png);
-          mask-image: url(assets/shape-bottom.png);
+  -webkit-mask-image: url(https://donkeyclip.github.io/history-clip/server/assets/shape-bottom.png);
+          mask-image: url(https://donkeyclip.github.io/history-clip/server/assets/shape-bottom.png);
   -webkit-mask-size: 800px 610px;
           mask-size: 800px 610x;          
   -webkit-mask-repeat: no-repeat;

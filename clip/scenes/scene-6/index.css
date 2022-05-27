@@ -30,8 +30,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   pointer-events: none;
-  -webkit-mask-image: url(assets/shape-left.png);
-          mask-image: url(assets/shape-left.png);
+  -webkit-mask-image: url(https://donkeyclip.github.io/history-clip/server/assets/shape-left.png);
+          mask-image: url(https://donkeyclip.github.io/history-clip/server/assets/shape-left.png);
   -webkit-mask-size: 1050px;
           mask-size: 1050px;          
   -webkit-mask-repeat: no-repeat;
@@ -79,8 +79,8 @@
         background-origin: border-box;  
         background-repeat: no-repeat;
         pointer-events: none;
-        -webkit-mask-image: url(assets/face-shape.png);
-                mask-image: url(assets/face-shape.png);
+        -webkit-mask-image: url(https://donkeyclip.github.io/history-clip/server/assets/face-shape.png);
+                mask-image: url(https://donkeyclip.github.io/history-clip/server/assets/face-shape.png);
         -webkit-mask-size: 1050px;
                 mask-size: 1050px;          
         -webkit-mask-repeat: no-repeat;
