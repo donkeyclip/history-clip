@@ -69,7 +69,7 @@ clip.addIncident(clip3,8000);
 clip.addIncident(moveRight("0%",".texture",4500),8500)
 clip.addIncident(clip4,13000);
 clip.addIncident(moveBottom("-30%",".texture",4500),13500)
-clip.addIncident(clip5,18000);
+// clip.addIncident(clip5,18000);
 clip.addIncident(moveBottom("0%",".texture",4500),18500)
 clip.addIncident(clip6,23000);
 clip.addIncident(moveRight("-20%",".texture",4500),23500)
