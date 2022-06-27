@@ -9,9 +9,19 @@ export default {
     type: "object",
     optional: false,
     props:{
-      title:"array",
-      subtitle:"array",
-      backgroundImage:"string"
+      title: { 
+        type:"array",
+        items:{
+          type:"string"
+        }
+      },
+      subtitle: { 
+        type:"array",
+        items:{
+          type:"string"
+        }
+      },
+      backgroundImage: { type:"string"}
     }
   },
   slide1: {
@@ -19,12 +29,12 @@ export default {
     type: "object",
     optional: false,
     props:{
-      backgroundImage:"string",
-      centerImage:"string",
-      year:"string",
-      backgroundText1:"string",
-      backgroundText2: "string",
-      textEffect:"string"
+      backgroundImage: { type:"string"},
+      centerImage: { type:"string"},
+      year: { type:"string"},
+      backgroundText1: { type:"string"},
+      backgroundText2: { type: "string"},
+      textEffect: { type:"string"}
     }
   },
   slide2: {
@@ -32,12 +42,12 @@ export default {
     type: "object",
     optional: false,
     props:{
-      backgroundImage:"string",
-      centerImage:"string",
-      year:"string",
-      backgroundText1:"string",
-      backgroundText2: "string",
-      textEffect:"string"
+      backgroundImage:{ type:"string"},
+      centerImage:{ type:"string"},
+      year:{ type:"string"},
+      backgroundText1:{ type:"string"},
+      backgroundText2: { type:"string"},
+      textEffect:{ type:"string"}
     }
   },
   slide3: {
@@ -45,12 +55,12 @@ export default {
     type: "object",
     optional: false,
     props:{
-      backgroundImage:"string",
-      centerImage:"string",
-      year:"string",
-      backgroundText1:"string",
-      backgroundText2: "string",
-      textEffect:"string"
+      backgroundImage:{ type:"string"},
+      centerImage:{ type:"string"},
+      year:{ type:"string"},
+      backgroundText1:{ type:"string"},
+      backgroundText2: { type:"string"},
+      textEffect:{ type:"string"}
     }
   },
   slide4: {
@@ -58,12 +68,12 @@ export default {
     type: "object",
     optional: false,
     props:{
-      backgroundImage:"string",
-      centerImage:"string",
-      year:"string",
-      backgroundText1:"string",
-      backgroundText2: "string",
-      textEffect:"string"
+      backgroundImage:{ type:"string"},
+      centerImage:{ type:"string"},
+      year:{ type:"string"},
+      backgroundText1:{ type:"string"},
+      backgroundText2: { type:"string"},
+      textEffect:{ type:"string"}
     }
   },
   slide5: {
@@ -71,12 +81,12 @@ export default {
     type: "object",
     optional: false,
     props:{
-      backgroundImage:"string",
-      centerImage:"string",
-      year:"string",
-      backgroundText1:"string",
-      backgroundText2: "string",
-      textEffect:"string"
+      backgroundImage:{ type:"string"},
+      centerImage:{ type:"string"},
+      year:{ type:"string"},
+      backgroundText1:{ type:"string"},
+      backgroundText2: { type:"string"},
+      textEffect:{ type:"string"}
     }
   },
   slide6: {
@@ -84,12 +94,12 @@ export default {
     type: "object",
     optional: false,
     props:{
-      backgroundImage:"string",
-      centerImage:"string",
-      year:"string",
-      backgroundText1:"string",
-      backgroundText2: "string",
-      textEffect:"string"
+      backgroundImage:{ type:"string"},
+      centerImage:{ type:"string"},
+      year:{ type:"string"},
+      backgroundText1:{ type:"string"},
+      backgroundText2: { type:"string"},
+      textEffect:{ type:"string"}
     }
   },
   outro: {
@@ -97,9 +107,19 @@ export default {
     type: "object",
     optional: false,
     props:{
-      title:"array",
-      subtitle:"array",
-      backgroundImage:"string"
+      title:{ 
+        type:"array",
+        items:{
+          type:"string"
+        }
+      },
+      subtitle:{ 
+        type:"array",
+        items:{
+          type:"string"
+        }
+      },
+      backgroundImage:{ type:"string"}
     }
   },
 };

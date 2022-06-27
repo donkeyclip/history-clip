@@ -15,7 +15,8 @@
 
 .texture{
   background: url(https://donkeyclip.github.io/history-clip/server/assets/paper-texture.jpg);
-  background-repeat: no-repeat;background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 150%;
   height: 150%;
   position: absolute;
