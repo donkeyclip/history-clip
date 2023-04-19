@@ -1,4 +1,9 @@
-import { HTMLClip, AudioPlayback, AudioEffect } from "@donkeyclip/motorcortex";
+import {
+  HTMLClip,
+  AudioPlayback,
+  AudioEffect,
+  setCSSCore,
+} from "@donkeyclip/motorcortex";
 import html from "./clip.html";
 import css from "!!raw-loader!./clip.css";
 import initParams from "./initParams";
@@ -11,8 +16,8 @@ import clip5 from "./scenes/scene-5";
 import clip6 from "./scenes/scene-6";
 import clip7 from "./scenes/scene-7";
 import clip8 from "./scenes/scene-8";
-
-
+import AnimePluginDefinition from "@donkeyclip/motorcortex-anime";
+setCSSCore(AnimePluginDefinition.CSSEffect);
 
 import { moveBottom } from "./library/moveBottom";
 import { moveRight } from "./library/moveRight";
@@ -61,19 +66,19 @@ const effect = new AudioEffect(
 
 clip.addIncident(effect, 37000);
 
-clip.addIncident(opacity(0.2,".texture",1000),1800)
+clip.addIncident(opacity(0.2, ".texture", 1000), 1800);
 clip.addIncident(scene1, 0);
-clip.addIncident(clip2,3000);
-clip.addIncident(moveRight("-20%",".texture",4500),3500)
-clip.addIncident(clip3,8000);
-clip.addIncident(moveRight("0%",".texture",4500),8500)
-clip.addIncident(clip4,13000);
-clip.addIncident(moveBottom("-30%",".texture",4500),13500)
-clip.addIncident(clip5,18000);
-clip.addIncident(moveBottom("0%",".texture",4500),18500)
-clip.addIncident(clip6,23000);
-clip.addIncident(moveRight("-20%",".texture",4500),23500)
-clip.addIncident(clip7,28000);
-clip.addIncident(moveBottom("-30%",".texture",4500),28500)
-clip.addIncident(clip8,33000);
-clip.addIncident(moveBottom("0%",".texture",4500),33500)
+clip.addIncident(clip2, 3000);
+clip.addIncident(moveRight("-20%", ".texture", 4500), 3500);
+clip.addIncident(clip3, 8000);
+clip.addIncident(moveRight("0%", ".texture", 4500), 8500);
+clip.addIncident(clip4, 13000);
+clip.addIncident(moveBottom("-30%", ".texture", 4500), 13500);
+clip.addIncident(clip5, 18000);
+clip.addIncident(moveBottom("0%", ".texture", 4500), 18500);
+clip.addIncident(clip6, 23000);
+clip.addIncident(moveRight("-20%", ".texture", 4500), 23500);
+clip.addIncident(clip7, 28000);
+clip.addIncident(moveBottom("-30%", ".texture", 4500), 28500);
+clip.addIncident(clip8, 33000);
+clip.addIncident(moveBottom("0%", ".texture", 4500), 33500);

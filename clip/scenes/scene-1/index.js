@@ -1,9 +1,8 @@
 import { HTMLClip } from "@donkeyclip/motorcortex";
 import html from "./index.html";
 import css from "!!raw-loader!./index.css";
-import { moveRight } from './../../library/moveRight';
+import { moveRight } from "./../../library/moveRight";
 import { moveBottom } from "../../library/moveBottom";
-
 
 const clip = new HTMLClip({
   html,
@@ -24,9 +23,10 @@ const clip = new HTMLClip({
   ],
 });
 
-clip.addIncident(moveRight("-120%",".intro",2300),0);
-clip.addIncident(moveBottom("0%",".letter",300,"@stagger(0,600)"),2000);
-
+clip.addIncident(moveRight("-120%", ".intro", 2300), 0);
+clip.addIncident(
+  moveBottom("0%", ".letter", 300, "@stagger(0,600)", "linear", "102%"),
+  2000
+);
 
 export default clip;
-
