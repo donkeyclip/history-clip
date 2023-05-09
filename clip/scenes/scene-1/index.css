@@ -39,7 +39,7 @@
   background-size: cover; 
   background-position: center;
   background-repeat: no-repeat;
-  filter:saturate(50%) sepia(100%) contrast(25%) saturate(170%);
+  /* filter:saturate(50%) sepia(100%) contrast(25%) saturate(170%); */
 }
 
 .text-container{

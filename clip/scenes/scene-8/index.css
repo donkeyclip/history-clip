@@ -14,7 +14,7 @@
 }
 
 .background-container{
-        filter: drop-shadow(10px 50px 20px rgba(0,0,0,0.8));
+        /* filter: drop-shadow(10px 50px 20px rgba(0,0,0,0.8)); */
         position: absolute;
         bottom:-135%;
         left: 0%;
@@ -24,7 +24,7 @@
   width: 800px;
   height: 610px;
   background: url({{initParams.outro.backgroundImage}});  
-  filter:saturate(50%) sepia(100%) contrast(25%) saturate(170%);
+  /* filter:saturate(50%) sepia(100%) contrast(25%) saturate(170%); */
   background-color: aliceblue;
   background-clip: border-box;
   background-origin: border-box;  
